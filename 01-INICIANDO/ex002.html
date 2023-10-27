@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em JavaScript</title>
+    <style>
+        body{
+            background-color: #f7f7f7;
+            color: rgb(66, 66, 66); /* comentario css*/
+            font: normal 16pt Helvetica;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola, Mundo!</h1> <!--Comentario HTML-->
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1  + n2
+        window.alert(`A soma entre ${n1} e ${n2} é ${s.toFixed(2)}`)// + é concatenação (number + number) para adição
+        var nome = window.prompt(`Qual é seu nome?`)
+        document.write(`Seu nome ${nome.toUpperCase()} tem ${nome.length} letras.`)
+    </script>
+</body>
+</html>
