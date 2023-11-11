@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 109);
+}
+
+header {
+    height: 50px;
+    background-color: #d9e3ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.senha {
+    padding: 40px;
+    border: 2px solid rgb(46, 46, 109);
+    border-radius: 50px;
+    background-color: #d9e3ec;
+    text-align: center;
+    font-size: 2em;
+    min-width: 320px;
+}
+
+#senha {
+    border: 1px solid rgb(46, 46, 109);
+    border-radius: 50px;
+    box-shadow: 4px 4px 6px black;
+    padding: 20px;
+    background-color: rgb(46, 46, 109);
+    color: white;
+}
